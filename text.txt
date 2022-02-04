@@ -1,0 +1,69 @@
+ order: {
+        shell: {
+            name: 'shell',
+            value: [1, 2, 3, 4]
+        },
+        faceplate: {
+            name: 'faceplate',
+            listOption: [
+                {
+                    name: 'solid',
+                    Value: [1, 2, 3, 4]
+                },
+                {
+                    name: 'translucent',
+                    Value: [5, 6, 7, 8, 9, 10]
+                }
+            ]
+        },
+        artwork: {
+            name: 'artwork',
+            listOption: [
+                {
+                    name: 'logo-color',
+                    Value: [1, 2, 3, 4]
+                },
+                {
+                    name: 'speciality',
+                    Value: [5, 6, 7, 8]
+                }
+            ]
+        },
+        cable: {
+            name: 'cable',
+            options: [
+                {
+                    name: 'SocketType',
+                    value: [1, 2],
+                    text: ['2-pin', 'ipx']
+                },
+                {
+                    name: 'cableColor',
+                    value: [1, 2],
+                    text: ['white', 'black']
+                }, {
+                    name: 'SocketLength',
+                    value: [1, 2],
+                    text: ['48"', '64"']
+                },
+            ]
+
+        },
+        material: {
+            name: 'material',
+            options: [
+                {
+                    name: 'material',
+                    value: [1, 2, 3, 4,],
+                    text: ['gold', 'platinum', 'dimond', 'master']
+
+                }
+            ]
+
+
+        }
+    },
+    1:12
+    2:34
+    3:56
+    4:78
